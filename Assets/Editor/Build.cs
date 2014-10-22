@@ -63,7 +63,7 @@ public class WBBuild : MonoBehaviour {
 	/// </summary>
 	static void Build()
 	{
-		String buildTarget = "Android";
+		BuildTarget buildTarget = BuildTarget.Android;	 
 		String buildPath = "/Users/nikhilnavakiran/UnityProjects/myAndroidTestV1.apk";
 		BuildImpl(buildPath, buildTarget, BuildOptions.None);
 	}
